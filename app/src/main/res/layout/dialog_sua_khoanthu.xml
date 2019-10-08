@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="80">
+
+        <EditText
+            android:id="@+id/edit_suaname_khoanthu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:hint="Sửa Name"
+            android:textColor="#000"
+            android:textSize="23dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="80">
+
+        <EditText
+            android:id="@+id/edit_suagia_khoanthu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:hint="Sửa Giá"
+            android:textColor="#000"
+            android:textSize="23dp"
+            android:inputType="number"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="80">
+
+        <EditText
+            android:id="@+id/edit_suangay_khoanthu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:hint="Sửa Ngày"
+            android:textColor="#000"
+            android:textSize="23dp"
+            android:inputType="datetime"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/huy_dialogsua_khoanthu"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="#3399FF"
+            android:text="Hủy" />
+
+        <Button
+            android:id="@+id/sua_dialogsua_khoanthu"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="#3399FF"
+            android:text="Sửa" />
+    </LinearLayout>
+
+</LinearLayout>

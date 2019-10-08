@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="80"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/edit_loaithu"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+
+            android:hint="Sửa Loại Thu"
+            android:textColor="#000"
+            android:textSize="23dp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/huy_dialogthem"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="#3399FF"
+            android:text="Hủy" />
+
+        <Button
+            android:id="@+id/them_dialogthem"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="#3399FF"
+            android:text="Sửa" />
+    </LinearLayout>
+
+</LinearLayout
+ >
